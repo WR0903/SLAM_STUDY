@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O3 -O3 -DNDEBUG   CMakeFiles/EigenSlam.dir/useSophus.cpp.o  -o EigenSlam -rdynamic Sophus/libSophus.so -Wl,-rpath,/home/wr/study/slam_study/Sophus_study/Sophus 
