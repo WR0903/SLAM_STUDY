@@ -1,3 +1,0 @@
-/home/wr/study/slam_study/3D-2D/CMakeFiles/edit_cache.dir
-/home/wr/study/slam_study/3D-2D/CMakeFiles/rebuild_cache.dir
-/home/wr/study/slam_study/3D-2D/CMakeFiles/pose_estimation_3d2d.dir

@@ -1,3 +1,0 @@
-/home/wr/study/slam_study/ORB/CMakeFiles/edit_cache.dir
-/home/wr/study/slam_study/ORB/CMakeFiles/rebuild_cache.dir
-/home/wr/study/slam_study/ORB/CMakeFiles/feature_extraction.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/useHello.dir/useHelloSlam.cpp.o  -o useHello -rdynamic libhello_shared.so -Wl,-rpath,/home/wr/study/slam_study 
