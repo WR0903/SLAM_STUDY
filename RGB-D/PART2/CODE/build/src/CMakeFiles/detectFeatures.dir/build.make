@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wr/WHR/RGB-D/PART2/CODE
+CMAKE_SOURCE_DIR = /home/wr/SLAM_STUDY/RGB-D/PART2/CODE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wr/WHR/RGB-D/PART2/CODE/build
+CMAKE_BINARY_DIR = /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/detectFeatures.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/detectFeatures.dir/flags.make
 
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: src/CMakeFiles/detectFeatures.dir/flags.make
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: ../src/detectFeatures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wr/WHR/RGB-D/PART2/CODE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o"
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o -c /home/wr/WHR/RGB-D/PART2/CODE/src/detectFeatures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o"
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o -c /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/src/detectFeatures.cpp
 
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i"
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wr/WHR/RGB-D/PART2/CODE/src/detectFeatures.cpp > CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/src/detectFeatures.cpp > CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
 
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s"
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wr/WHR/RGB-D/PART2/CODE/src/detectFeatures.cpp -o CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/src/detectFeatures.cpp -o CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
 
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o.requires:
 
@@ -91,32 +91,32 @@ detectFeatures_EXTERNAL_OBJECTS =
 ../bin/detectFeatures: src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o
 ../bin/detectFeatures: src/CMakeFiles/detectFeatures.dir/build.make
 ../bin/detectFeatures: ../lib/libslambase.a
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_superres3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_face3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_img_hash3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_reg3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_tracking3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libboost_system.so
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libboost_thread.so
@@ -261,25 +261,25 @@ detectFeatures_EXTERNAL_OBJECTS =
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libvtkIOParallelExodus-6.2.so.6.2.0
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libvtkIOExodus-6.2.so.6.2.0
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libvtkIOMINC-6.2.so.6.2.0
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_photo3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_viz3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_plot3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_text3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_dnn3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_ml3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_shape3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_video3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_flann3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
-../bin/detectFeatures: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+../bin/detectFeatures: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libvtkIOExport-6.2.so.6.2.0
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libvtkRenderingGL2PS-6.2.so.6.2.0
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL-6.2.so.6.2.0
@@ -430,8 +430,8 @@ detectFeatures_EXTERNAL_OBJECTS =
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libnetcdf.so
 ../bin/detectFeatures: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 ../bin/detectFeatures: src/CMakeFiles/detectFeatures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wr/WHR/RGB-D/PART2/CODE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/detectFeatures"
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/detectFeatures.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/detectFeatures"
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/detectFeatures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/detectFeatures.dir/build: ../bin/detectFeatures
@@ -443,10 +443,10 @@ src/CMakeFiles/detectFeatures.dir/requires: src/CMakeFiles/detectFeatures.dir/de
 .PHONY : src/CMakeFiles/detectFeatures.dir/requires
 
 src/CMakeFiles/detectFeatures.dir/clean:
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && $(CMAKE_COMMAND) -P CMakeFiles/detectFeatures.dir/cmake_clean.cmake
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && $(CMAKE_COMMAND) -P CMakeFiles/detectFeatures.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/detectFeatures.dir/clean
 
 src/CMakeFiles/detectFeatures.dir/depend:
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wr/WHR/RGB-D/PART2/CODE /home/wr/WHR/RGB-D/PART2/CODE/src /home/wr/WHR/RGB-D/PART2/CODE/build /home/wr/WHR/RGB-D/PART2/CODE/build/src /home/wr/WHR/RGB-D/PART2/CODE/build/src/CMakeFiles/detectFeatures.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wr/SLAM_STUDY/RGB-D/PART2/CODE /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/src /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src/CMakeFiles/detectFeatures.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/detectFeatures.dir/depend
 

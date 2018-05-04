@@ -1,0 +1,1 @@
+g++     -g    CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  -L/home/wr/SLAM_STUDY/new_rgb/part_3/lib -rdynamic 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wr/WHR/RGB-D/PART2/CODE/src/joinPointCloud.cpp" "/home/wr/WHR/RGB-D/PART2/CODE/build/src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o"
+  "/home/wr/SLAM_STUDY/RGB-D/PART2/CODE/src/joinPointCloud.cpp" "/home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -52,8 +52,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/eigen3"
   "/usr/include/ni"
   "/usr/include/openni2"
-  "/opt/ros/kinetic/include/opencv-3.3.1"
-  "/opt/ros/kinetic/include/opencv-3.3.1/opencv"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
@@ -63,7 +63,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/wr/WHR/RGB-D/PART2/CODE/build/src/CMakeFiles/slambase.dir/DependInfo.cmake"
+  "/home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src/CMakeFiles/slambase.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

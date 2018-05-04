@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wr/WHR/RGB-D/PART2/CODE
+CMAKE_SOURCE_DIR = /home/wr/SLAM_STUDY/RGB-D/PART2/CODE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wr/WHR/RGB-D/PART2/CODE/build
+CMAKE_BINARY_DIR = /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/generate_pointcloud.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/generate_pointcloud.dir/flags.make
 
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o: src/CMakeFiles/generate_pointcloud.dir/flags.make
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o: ../src/generatePointCloud.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wr/WHR/RGB-D/PART2/CODE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o"
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o -c /home/wr/WHR/RGB-D/PART2/CODE/src/generatePointCloud.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o"
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o -c /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/src/generatePointCloud.cpp
 
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i"
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wr/WHR/RGB-D/PART2/CODE/src/generatePointCloud.cpp > CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/src/generatePointCloud.cpp > CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
 
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s"
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wr/WHR/RGB-D/PART2/CODE/src/generatePointCloud.cpp -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/src/generatePointCloud.cpp -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
 
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o.requires:
 
@@ -90,32 +90,32 @@ generate_pointcloud_EXTERNAL_OBJECTS =
 
 ../bin/generate_pointcloud: src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o
 ../bin/generate_pointcloud: src/CMakeFiles/generate_pointcloud.dir/build.make
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_superres3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_face3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_img_hash3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_reg3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_tracking3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libboost_system.so
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libboost_thread.so
@@ -266,30 +266,30 @@ generate_pointcloud_EXTERNAL_OBJECTS =
 ../bin/generate_pointcloud: /usr/local/lib/libpcl_kdtree.so
 ../bin/generate_pointcloud: /usr/local/lib/libpcl_search.so
 ../bin/generate_pointcloud: /usr/local/lib/libpcl_visualization.so
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_shape3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_photo3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_viz3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libvtkIOExport-6.2.so.6.2.0
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libvtkRenderingGL2PS-6.2.so.6.2.0
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL-6.2.so.6.2.0
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-6.2.so.6.2.0
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-6.2.so.6.2.0
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_video3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_plot3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_text3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_dnn3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_flann3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_ml3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
-../bin/generate_pointcloud: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+../bin/generate_pointcloud: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libxml2.so
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/hdf5/openmpi/lib/libhdf5.so
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libsz.so
@@ -385,8 +385,8 @@ generate_pointcloud_EXTERNAL_OBJECTS =
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0
 ../bin/generate_pointcloud: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0
 ../bin/generate_pointcloud: src/CMakeFiles/generate_pointcloud.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wr/WHR/RGB-D/PART2/CODE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/generate_pointcloud"
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/generate_pointcloud.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/generate_pointcloud"
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/generate_pointcloud.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/generate_pointcloud.dir/build: ../bin/generate_pointcloud
@@ -398,10 +398,10 @@ src/CMakeFiles/generate_pointcloud.dir/requires: src/CMakeFiles/generate_pointcl
 .PHONY : src/CMakeFiles/generate_pointcloud.dir/requires
 
 src/CMakeFiles/generate_pointcloud.dir/clean:
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build/src && $(CMAKE_COMMAND) -P CMakeFiles/generate_pointcloud.dir/cmake_clean.cmake
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src && $(CMAKE_COMMAND) -P CMakeFiles/generate_pointcloud.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/generate_pointcloud.dir/clean
 
 src/CMakeFiles/generate_pointcloud.dir/depend:
-	cd /home/wr/WHR/RGB-D/PART2/CODE/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wr/WHR/RGB-D/PART2/CODE /home/wr/WHR/RGB-D/PART2/CODE/src /home/wr/WHR/RGB-D/PART2/CODE/build /home/wr/WHR/RGB-D/PART2/CODE/build/src /home/wr/WHR/RGB-D/PART2/CODE/build/src/CMakeFiles/generate_pointcloud.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wr/SLAM_STUDY/RGB-D/PART2/CODE /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/src /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src /home/wr/SLAM_STUDY/RGB-D/PART2/CODE/build/src/CMakeFiles/generate_pointcloud.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/generate_pointcloud.dir/depend
 

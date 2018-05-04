@@ -1,0 +1,6 @@
+/home/wr/SLAM_STUDY/new_rgb/part_2/build/CMakeFiles/edit_cache.dir
+/home/wr/SLAM_STUDY/new_rgb/part_2/build/CMakeFiles/rebuild_cache.dir
+/home/wr/SLAM_STUDY/new_rgb/part_2/build/src/CMakeFiles/rebuild_cache.dir
+/home/wr/SLAM_STUDY/new_rgb/part_2/build/src/CMakeFiles/edit_cache.dir
+/home/wr/SLAM_STUDY/new_rgb/part_2/build/src/CMakeFiles/detectFeatures.dir
+/home/wr/SLAM_STUDY/new_rgb/part_2/build/src/CMakeFiles/slambase.dir

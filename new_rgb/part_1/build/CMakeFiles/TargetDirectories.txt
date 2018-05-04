@@ -1,0 +1,6 @@
+/home/wr/SLAM_STUDY/new_rgb/part_1/build/CMakeFiles/edit_cache.dir
+/home/wr/SLAM_STUDY/new_rgb/part_1/build/CMakeFiles/rebuild_cache.dir
+/home/wr/SLAM_STUDY/new_rgb/part_1/build/src/CMakeFiles/rebuild_cache.dir
+/home/wr/SLAM_STUDY/new_rgb/part_1/build/src/CMakeFiles/generate_pointcloud.dir
+/home/wr/SLAM_STUDY/new_rgb/part_1/build/src/CMakeFiles/edit_cache.dir
+/home/wr/SLAM_STUDY/new_rgb/part_1/build/src/CMakeFiles/main.dir
