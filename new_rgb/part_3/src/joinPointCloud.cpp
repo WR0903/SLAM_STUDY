@@ -41,7 +41,7 @@ int main( int argc, char** argv )
 
     // 相机内参
     CAMERA_INTRINSIC_PARAMETERS camera;
-    camera.fx = atof( pd.getData( "camera.fx" ).c_str());
+    camera.fx = atof( pd.getData( "camera.fx" ).c_str());//atof将字符串类型转换成双精度类型
     camera.fy = atof( pd.getData( "camera.fy" ).c_str());
     camera.cx = atof( pd.getData( "camera.cx" ).c_str());
     camera.cy = atof( pd.getData( "camera.cy" ).c_str());

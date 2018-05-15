@@ -58,8 +58,7 @@ cv::Point3f point2dTo3d( cv::Point3f& point, CAMERA_INTRINSIC_PARAMETERS& camera
 // computeKeyPointsAndDesp 同时提取关键点与特征描述子
 void computeKeyPointsAndDesp( FRAME& frame)
 {
-    //cv::Ptr<cv::FeatureDetector> _detector;
-    //cv::Ptr<cv::DescriptorExtractor> _descriptor;
+
 
     cv::Ptr<cv::FeatureDetector> _detector = cv::ORB::create();
     cv::Ptr<cv::DescriptorExtractor> _descriptor = cv::ORB::create();
@@ -68,7 +67,7 @@ void computeKeyPointsAndDesp( FRAME& frame)
     _detector->detect( frame.rgb, frame.kp );
     _descriptor->compute( frame.rgb, frame.kp, frame.desp );
 
-return;
+    return;
 }
 
 // estimateMotion 计算两个帧之间的运动
@@ -105,16 +104,6 @@ RESULT_OF_PNP estimateMotion( FRAME& frame1, FRAME& frame2, CAMERA_INTRINSIC_PAR
     // 第二个帧的图像点
     vector< cv::Point2f > pts_img;
 
-
-
-
-
-
-
-
-
-
-
     // 相机内参
     for (size_t i=0; i<goodMatches.size(); i++)
     {
@@ -141,7 +130,7 @@ RESULT_OF_PNP estimateMotion( FRAME& frame1, FRAME& frame2, CAMERA_INTRINSIC_PAR
     };
     cout<<"solving pnp"<<endl;
     // 构建相机矩阵
-    cv::Mat cameraMatrix( 3, 3, CV_64F, camera_matrix_data );
+
     cv::Mat rvec, tvec;
     Mat K = ( Mat_<double> ( 3,3 ) << camera.fx, 0, camera.cx,0, camera.fy, camera.cy, 0, 0, 1 );
     // 求解pnp

@@ -32,16 +32,6 @@ struct CAMERA_INTRINSIC_PARAMETERS
     double cx, cy, fx, fy, scale;
 };
 
-// 函数接口
-// image2PonitCloud 将rgb图转换为点云
-PointCloud::Ptr image2PointCloud( cv::Mat& rgb, cv::Mat& depth, CAMERA_INTRINSIC_PARAMETERS& camera );
-
-// point2dTo3d 将单个点从图像坐标转换为空间坐标
-// input: 3维点Point3f (u,v,d)
-cv::Point3f point2dTo3d( cv::Point3f& point, CAMERA_INTRINSIC_PARAMETERS& camera );
-
-
-
 // 帧结构
 struct FRAME
 {
@@ -56,15 +46,11 @@ struct RESULT_OF_PNP
     cv::Mat rvec, tvec;
     //int inliers;
 };
-
-// computeKeyPointsAndDesp 同时提取关键点与特征描述子
-void computeKeyPointsAndDesp( FRAME& frame);
-
-// estimateMotion 计算两个帧之间的运动
-// 输入：帧1和帧2, 相机内参
-RESULT_OF_PNP estimateMotion( FRAME& frame1, FRAME& frame2, CAMERA_INTRINSIC_PARAMETERS& camera );
-//Point2d pixel2cam ( const Point2d& p, const Mat& K );
 // 参数读取类
+/*
+ *思路就是，把txt文件一行一行的读取，如果是#开头的忽略，
+ * 如果不是#开头的，就先找=，然后字符串划分成两部分，左边是key，右边是value，放在map容器中
+ */
 class ParameterReader
 {
 public:
@@ -79,7 +65,7 @@ public:
         while(!fin.eof())
         {
             string str;
-            getline( fin, str );
+            getline( fin, str );//读取一行
             if (str[0] == '#')
             {
                 // 以‘＃’开头的是注释
@@ -89,7 +75,7 @@ public:
             int pos = str.find("=");
             if (pos == -1)
                 continue;
-            string key = str.substr( 0, pos );
+            string key = str.substr( 0, pos );//字符串的划分，=左边的
             string value = str.substr( pos+1, str.length() );
             data[key] = value;
 
@@ -110,3 +96,21 @@ public:
 public:
     map<string, string> data;
 };
+// 函数接口
+// image2PonitCloud 将rgb图转换为点云
+PointCloud::Ptr image2PointCloud( cv::Mat& rgb, cv::Mat& depth, CAMERA_INTRINSIC_PARAMETERS& camera );
+
+// point2dTo3d 将单个点从图像坐标转换为空间坐标
+// input: 3维点Point3f (u,v,d)
+cv::Point3f point2dTo3d( cv::Point3f& point, CAMERA_INTRINSIC_PARAMETERS& camera );
+
+
+// computeKeyPointsAndDesp 同时提取关键点与特征描述子
+void computeKeyPointsAndDesp( FRAME& frame);
+
+// estimateMotion 计算两个帧之间的运动
+// 输入：帧1和帧2, 相机内参
+RESULT_OF_PNP estimateMotion( FRAME& frame1, FRAME& frame2, CAMERA_INTRINSIC_PARAMETERS& camera );
+//Point2d pixel2cam ( const Point2d& p, const Mat& K );
+
+
